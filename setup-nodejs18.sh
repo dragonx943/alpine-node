@@ -32,3 +32,4 @@ echo "W: Installing nodejs & npm..."
 tar -xzf node-v18-linux-${archurl}.tar.gz -C /usr --strip-components=1 --no-same-owner
 echo "W: Cleaning up..."
 rm -rf node-v18-linux-*.tar.gz
+break

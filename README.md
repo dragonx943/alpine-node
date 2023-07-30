@@ -6,3 +6,7 @@
   ```sh
   ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup-nodejs18.sh)
   ```
+3. Nodejs version manager for Alpine Linux (beta - need bash):
+  ```sh
+  bash <(curl -Ls https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup.sh)
+  ```

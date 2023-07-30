@@ -6,8 +6,10 @@ do
     case $lng in
         "v16")
            ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup-node16.sh);;
+           break
         "v18")
            ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup-nodejs18.sh);;
+           break
         *)
            echo "E: Nhập sai số tương ứng với phiên bản nodejs, vui lòng thử lại !!!";;
     esac

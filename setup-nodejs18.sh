@@ -2,6 +2,8 @@
 ## Fake setup, LOL !!!
 rm -rf node-v18-linux-*.tar.gz
 clear
+echo "W: Install curl packages..."
+apk add curl
 echo "W: Download Nodejs v18, this may take a while base on your internet speed."
 case `uname -m` in
 i386)

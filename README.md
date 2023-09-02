@@ -4,7 +4,7 @@
   ```
 2. Install nodejs 18 on Alpine Linux (beta):
   ```sh
-  ash <(curl -Ls https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup-nodejs18.sh)
+  wget -qO- https://raw.githubusercontent.com/dragonx943/alpine-node/main/setup-nodejs18.sh | sh
   ```
 3. Nodejs version manager for Alpine Linux (beta - need bash / ERROR):
   ```sh
